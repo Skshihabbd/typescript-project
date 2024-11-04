@@ -1,0 +1,6 @@
+"use strict";
+{
+    //
+    // oop concept
+    //
+}
