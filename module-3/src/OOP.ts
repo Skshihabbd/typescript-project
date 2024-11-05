@@ -1,5 +1,5 @@
 {
   //
-  // oop concept
+  // oop concept-->> paradigm-->>
   //
 }

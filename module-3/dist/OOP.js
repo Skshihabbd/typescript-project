@@ -1,6 +1,6 @@
 "use strict";
 {
     //
-    // oop concept
+    // oop concept-->> paradigm-->>
     //
 }
