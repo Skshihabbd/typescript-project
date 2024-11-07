@@ -56,6 +56,8 @@ You can restrict a generic type to certain types or interfaces. This ensures tha
 
 typescript
 Copy code
+
+```
 interface Lengthwise {
 length: number;
 }
@@ -63,6 +65,7 @@ length: number;
 function logLength<T extends Lengthwise>(value: T): void {
 console.log(value.length);
 }
+```
 
 // Usage
 logLength("Hello"); // Works because string has a length property
@@ -77,7 +80,3 @@ Basic Generics let you define components that work with any type while ensuring 
 Dynamic Generics add flexibility by allowing multiple generics, constraints, or conditional types.
 Generics are particularly useful in TypeScript when creating reusable and type-safe code that needs to adapt to different data types.`
 `
-
-```
-
-```
