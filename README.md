@@ -42,9 +42,10 @@ You can use more than one generic type in a function or class.
 
 typescript
 Copy code
-function pair<T, U>(first: T, second: U): [T, U] {
+
+````function pair<T, U>(first: T, second: U): [T, U] {
 return [first, second];
-}
+}```
 
 const result = pair<number, string>(1, "apple"); // [1, "apple"]
 Here, T and U are two generic types, allowing the pair function to work with two different types at once.
@@ -75,3 +76,4 @@ Basic Generics let you define components that work with any type while ensuring 
 Dynamic Generics add flexibility by allowing multiple generics, constraints, or conditional types.
 Generics are particularly useful in TypeScript when creating reusable and type-safe code that needs to adapt to different data types.`
 `
+````
